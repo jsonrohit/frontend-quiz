@@ -5,12 +5,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { MainComponent } from './index/main.component';
 import { MainRoutingModule } from './main-routing.module';
+import { ResultComponent } from './result/result.component';
 
 
 
 @NgModule({
   declarations: [
-    MainComponent
+    MainComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,
